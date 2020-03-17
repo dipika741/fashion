@@ -11,7 +11,7 @@
                             <ul>
 
                                 <li>
-                                    <a href="payment.html">Payment</a>
+                                    <a href="/fashion/payment">Payment</a>
                                 </li>
                                 <li>
                                     <a href="#">Shipping</a>
@@ -20,7 +20,7 @@
                                     <a href="#">Cancellation & Returns</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html">FAQ</a>
+                                    <a href="/fashion/faq">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -30,32 +30,32 @@
                             <h4>Latest Blog</h4>
                             <div class="footer-v2grid1 row">
                                 <div class="col-4 footer-v2grid1-left">
-                                    <a href="blog.html">
-                                        <img src="images/bl2.jpg" alt=" " class="img-fluid">
+                                    <a href="/fashion/blog">
+                                        <img src="{{ asset('images/bl2.jpg') }}" alt=" " class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-8 footer-v2grid1-right p-0">
-                                    <a href="blog.html">eveniie arcet ut moles morbi dapiti</a>
+                                    <a href="/fashion/blog">eveniie arcet ut moles morbi dapiti</a>
                                 </div>
                             </div>
                             <div class="footer-v2grid1 row my-2">
                                 <div class="col-4 footer-v2grid1-left">
-                                    <a href="blog.html">
-                                        <img src="images/bl1.jpg" alt=" " class="img-fluid">
+                                    <a href="/fashion/blog">
+                                        <img src="{{ asset('images/bl1.jpg') }}" alt=" " class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-8 footer-v2grid1-right p-0">
-                                    <a href="blog.html">earum rerum tenmorbi dapiti et</a>
+                                    <a href="/fashion/blog">earum rerum tenmorbi dapiti et</a>
                                 </div>
                             </div>
                             <div class="footer-v2grid1 row">
                                 <div class="col-4 footer-v2grid1-left">
-                                    <a href="blog.html">
-                                        <img src="images/bl3.jpg" alt=" " class="img-fluid">
+                                    <a href="/fashion/blog">
+                                        <img src="{{ asset('images/bl3.jpg') }}" alt=" " class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-8 footer-v2grid1-right p-0">
-                                    <a href="blog.html">morbi dapiti eveniet ut molesti</a>
+                                    <a href="/fashion/blog">morbi dapiti eveniet ut molesti</a>
                                 </div>
                             </div>
                         </div>
@@ -92,48 +92,48 @@
                             </h4>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl4.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl4.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl1.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl1.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl6.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl6.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl5.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl5.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
 
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl2.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl2.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl3.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl3.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl6.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl6.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl4.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl4.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                             <div class="footer-v2grid-instagram">
                                 <a href="#">
-                                    <img src="images/bl5.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ asset('images/bl5.jpg') }}" alt=" " class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -143,52 +143,52 @@
                             <h4>popular tags</h4>
                             <ul class="w3-tag2">
                                 <li>
-                                    <a href="shop.html">amet</a>
+                                    <a href="/fashion/shop">amet</a>
                                 </li>
                                 <li>
-                                    <a href="men.html">placerat</a>
+                                    <a href="/fashion/shop">placerat</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">Proin </a>
+                                    <a href="/fashion/shop">Proin </a>
                                 </li>
                                 <li>
-                                    <a href="boys.html">vehicula</a>
+                                    <a href="/fashion/shop">vehicula</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">diam</a>
+                                    <a href="/fashion/shop">diam</a>
                                 </li>
                                 <li>
-                                    <a href="women.html">velit</a>
+                                    <a href="/fashion/shop">velit</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">felis</a>
+                                    <a href="/fashion/shop">felis</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">mauris</a>
+                                    <a href="/fashion/shop">mauris</a>
                                 </li>
                                 <li>
-                                    <a href="girls.html">amet</a>
+                                    <a href="/fashion/shop">amet</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">placerat</a>
+                                    <a href="/fashion/shop">placerat</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">Proin </a>
+                                    <a href="/fashion/shop">Proin </a>
                                 </li>
                                 <li>
-                                    <a href="index.html">vehicula</a>
+                                    <a href="/fashion/shop">vehicula</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">diam</a>
+                                    <a href="/fashion/shop">diam</a>
                                 </li>
                                 <li>
-                                    <a href="men.html">velit</a>
+                                    <a href="/fashion/shop">velit</a>
                                 </li>
                                 <li>
-                                    <a href="shop.html">felis</a>
+                                    <a href="/fashion/shop">felis</a>
                                 </li>
                                 <li>
-                                    <a href="women.html">mauris</a>
+                                    <a href="/fashion/shop">mauris</a>
                                 </li>
                             </ul>
                         </div>
@@ -200,16 +200,16 @@
                     <div class="container">
                         <ul class="bottom-links-agile">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="/fashion">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="/fashion/about">About Us</a>
                             </li>
                             <li>
-                                <a href="shop.html">Shop</a>
+                                <a href="/fashion/shop">Shop</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="/fashion/contact">Contact</a>
                             </li>
 
                         </ul>
@@ -251,28 +251,28 @@
                         <h5>Payment Method</h5>
                         <ul class="mt-4">
                             <li class="list-inline-item">
-                                <img src="images/pay2.png" alt="">
+                                <img src="{{ asset('images/pay2.png') }}" alt="">
                             </li>
                             <li class="list-inline-item">
-                                <img src="images/pay5.png" alt="">
+                                <img src="{{ asset('images/pay5.png') }}" alt="">
                             </li>
                             <li class="list-inline-item">
-                                <img src="images/pay3.png" alt="">
+                                <img src="{{ asset('images/pay3.png') }}" alt="">
                             </li>
                             <li class="list-inline-item">
-                                <img src="images/pay7.png" alt="">
+                                <img src="{{ asset('images/pay7.png') }}" alt="">
                             </li>
                             <li class="list-inline-item">
-                                <img src="images/pay8.png" alt="">
+                                <img src="{{ asset('images/pay8.png') }}" alt="">
                             </li>
                             <li class="list-inline-item ">
-                                <img src="images/pay9.png" alt="">
+                                <img src="{{ asset('images/pay9.png') }}" alt="">
                             </li>
                         </ul>
                     </div>
                     <div class="cpy-right align-self-center">
                         <h2 class="agile_btxt">
-                            <a href="index.html">
+                            <a href="/fashion">
                                 <span>f</span>ashion
                                 <span>h</span>ub</a>
                         </h2>
@@ -298,7 +298,7 @@
                 <div class="modal-body pt-3 pb-5 px-sm-5">
                     <div class="row">
                         <div class="col-md-6 mx-auto align-self-center">
-                            <img src="images/p3.png" class="img-fluid" alt="login_image" />
+                            <img src="{{ asset('images/p3.png') }}" class="img-fluid" alt="login_image" />
                         </div>
                         <div class="col-md-6">
                             <form action="#" method="post">
@@ -353,7 +353,7 @@
                 <div class="modal-body  pt-3 pb-5 px-sm-5">
                     <div class="row">
                         <div class="col-md-6 align-self-center">
-                            <img src="images/p3.png" class="img-fluid" alt="login_image" />
+                            <img src="{{ asset('images/p3.png') }}" class="img-fluid" alt="login_image" />
                         </div>
                         <div class="col-md-6">
                             <form action="#" method="post">
@@ -377,7 +377,7 @@
     </div>
     <!-- signin Modal -->
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="{{ asset('js/jquery-2.2.3.min.js') }}"></script>
     <!-- //js -->
     <!-- script for show signin and signup modal -->
     <script>
@@ -483,6 +483,7 @@
         });
     </script>
     <!-- //cart-js -->
+
     <!-- start-smooth-scrolling -->
     <script type="text/javascript" src="{{ asset('js/move-top.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/easing.js') }}"></script>

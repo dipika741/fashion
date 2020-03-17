@@ -27,6 +27,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="{{ asset('css/bootstrap.css') }}" type="text/css" rel="stylesheet" media="all">
     <!-- shop css -->
     <link href="{{ asset('css/shop.css') }}" type="text/css" rel="stylesheet" media="all">
+    
+    @yield('css')
+    
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <!-- Owl-Carousel-CSS -->
     <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" media="all">
@@ -213,7 +216,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         </div>
                                         <div class="col-md-3">
                                             <span>Girl's Clothing</span>
-                                            <a class="dropdown-item" href="girls.html">T-shirts</a>
+                                            <a class="dropdown-item" style="color:#FF0000;" href="/fashion/kids/girls">T-shirts</a>
                                             <a class="dropdown-item" href="girls.html">Dresses</a>
                                             <a class="dropdown-item" href="girls.html">Tunics</a>
                                             <a class="dropdown-item" href="girls.html">Skirts</a>
@@ -232,13 +235,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="/fashion/about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
+                            <a class="nav-link" href="/fashion/blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="/fashion/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -251,6 +254,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 @yield('banner')
+@yield('breadcrumbs')
 @yield('content')
 
 @include('fashion.footer')
+@yield('script')

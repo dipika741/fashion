@@ -1,122 +1,33 @@
 @extends('fashion.header')
 
 @section('title')
-    Fashion Word
+    Contact
 @stop
-
 
 @section('banner')
-     <!-- banner -->
-    <div class="banner-text">
-        <div class="callbacks_container">
-            <ul class="rslides" id="slider3">
-                <li class="banner">
-                    <div class="container">
-                        <h3 class="agile_btxt">
-                            <span>f</span>ashion
-                            <span>h</span>ub
-                        </h3>
-                        <h4 class="w3_bbot">shop exclusive clothing</h4>
-                        <div class="slider-info mt-sm-5">
-                            <h4 class="bn_right">
-                                <span>w</span>omen's
-                                <span>f</span>ashion</h4>
-                            <div class="bnr_clip position-relative">
-                                <h4>get up to
-                                    <span class="px-2">45% </span>
-                                </h4>
-                                <div class="d-inline-flex flex-column banner-pos position-absolute text-center">
-                                    <div class="bg-flex-item">
-                                        <span>O</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F
-                                        </span>
-                                    </div>
-                                </div>
-                                <p class="text-uppercase py-2">on special sale</p>
-                                <a class="btn btn-primary mt-3 text-capitalize" href="shop.html" role="button">shop now</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="banner banner2">
-                    <div class="container">
-                        <h3 class="agile_btxt">
-                            <span>f</span>ashion
-                            <span>h</span>ub
-                        </h3>
-                        <h4 class="w3_bbot">shop exclusive clothing</h4>
-                        <div class="slider-info mt-sm-5">
-                            <h4 class="bn_right">
-                                <span>m</span>en's
-                                <span>f</span>ashion</h4>
-                            <div class="bnr_clip position-relative">
-                                <h4>get up to
-                                    <span class="px-2">35% </span>
-                                </h4>
-                                <div class="d-inline-flex flex-column banner-pos position-absolute text-center">
-                                    <div class="bg-flex-item">
-                                        <span>O</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F
-                                        </span>
-                                    </div>
-                                </div>
-                                <p class="text-uppercase py-2">on special sale</p>
-                                <a class="btn btn-primary mt-3 text-capitalize" href="shop.html" role="button">shop now</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="banner banner3">
-                    <div class="container">
-                        <h3 class="agile_btxt">
-                            <span>f</span>ashion
-                            <span>h</span>ub
-                        </h3>
-                        <h4 class="w3_bbot">shop exclusive clothing</h4>
-                        <div class="slider-info mt-sm-5">
-                            <h4 class="bn_right">
-                                <span>k</span>id's
-                                <span>f</span>ashion</h4>
-                            <div class="bnr_clip position-relative">
-                                <h4>get up to
-                                    <span class="px-2">45% </span>
-                                </h4>
-                                <div class="d-inline-flex flex-column banner-pos position-absolute text-center">
-                                    <div class="bg-flex-item">
-                                        <span>O</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F</span>
-                                    </div>
-                                    <div class="bg-flex-item">
-                                        <span>F
-                                        </span>
-                                    </div>
-                                </div>
-                                <p class="text-uppercase py-2">on special sale</p>
-                                <a class="btn btn-primary mt-3 text-capitalize" href="shop.html" role="button">shop now</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+    <!-- inner banner -->
+  <div class="ibanner_w3 pt-sm-5 pt-3">
+		<h4 class="head_agileinfo text-center text-capitalize text-center pt-5">
+            <span>f</span>ashion
+            <span>h</span>ub</h4>
     </div>
-    <!-- //banner -->
+    <!-- //inner banner -->
 @stop
-
-@section('content')    
-    <!--services-->
+    <!-- //inner banner -->
+@section('breadcrumbs')
+    <!-- breadcrumbs -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+    </nav>
+    <!-- //breadcrumbs -->
+@stop
+@section('content')
+   <!--services-->
     <div class="agileits-services" id="services">
         <div class="no-gutters agileits-services-row row">
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
@@ -170,7 +81,7 @@
         </div>
     </div>
     <!-- //about -->
-    <!-- product tabs -->
+       <!-- product tabs -->
     <section class="tabs_pro py-md-5 pt-sm-3 pb-5">
         <h5 class="head_agileinfo text-center text-capitalize pb-5">
             <span>s</span>mart clothing</h5>
@@ -1133,6 +1044,7 @@
         </div>
     </section>
     <!-- //product tabs -->
+
     <!-- insta posts -->
     <section class="py-lg-5">
         <!-- insta posts -->
@@ -1277,4 +1189,4 @@
     </section>
     <!-- //insta posts -->
 @stop
-
+   
