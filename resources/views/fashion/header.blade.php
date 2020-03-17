@@ -29,7 +29,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="{{ asset('css/shop.css') }}" type="text/css" rel="stylesheet" media="all">
     
     @yield('css')
-    
+
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <!-- Owl-Carousel-CSS -->
     <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" media="all">
@@ -135,28 +135,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="px-0 container">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="men.html">T-Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Coats</a>
-                                            <a class="dropdown-item" href="men.html">Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Suits & Blazers</a>
-                                            <a class="dropdown-item" href="men.html">Jackets</a>
-                                            <a class="dropdown-item" href="men.html">Trousers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Coats</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Suits & Blazers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Trousers</a>
                                         </div>
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="men.html">T-Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Trousers</a>
-                                            <a class="dropdown-item" href="men.html">Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Suits & Blazers</a>
-                                            <a class="dropdown-item" href="men.html">Coats & Jackets</a>
-                                            <a class="dropdown-item" href="men.html">Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Trousers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Suits & Blazers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Coats & Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jackets</a>
                                         </div>
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="men.html">T-Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Coats</a>
-                                            <a class="dropdown-item" href="men.html">Shirts</a>
-                                            <a class="dropdown-item" href="men.html">Suits & Blazers</a>
-                                            <a class="dropdown-item" href="men.html">Jackets</a>
-                                            <a class="dropdown-item" href="men.html">Trousers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Coats</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Suits & Blazers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Trousers</a>
                                         </div>
                                     </div>
                                 </div>
@@ -168,25 +168,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="px-0 container">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="women.html">Dresses</a>
-                                            <a class="dropdown-item" href="women.html">T-shirts</a>
-                                            <a class="dropdown-item" href="women.html">Skirts</a>
-                                            <a class="dropdown-item" href="women.html">Jeans</a>
-                                            <a class="dropdown-item" href="women.html">Tunics</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Dresses</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Skirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jeans</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Tunics</a>
                                         </div>
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="women.html">T-shirts</a>
-                                            <a class="dropdown-item" href="women.html">Dresses</a>
-                                            <a class="dropdown-item" href="women.html">Tunics</a>
-                                            <a class="dropdown-item" href="women.html">Skirts</a>
-                                            <a class="dropdown-item" href="women.html">Jeans</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Dresses</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Tunics</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Skirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jeans</a>
                                         </div>
                                         <div class="col-md-4">
-                                            <a class="dropdown-item" href="women.html">Dresses</a>
-                                            <a class="dropdown-item" href="women.html">T-shirts</a>
-                                            <a class="dropdown-item" href="women.html">Skirts</a>
-                                            <a class="dropdown-item" href="women.html">Jeans</a>
-                                            <a class="dropdown-item" href="women.html">Tunics</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Dresses</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Skirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jeans</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Tunics</a>
                                         </div>
                                     </div>
                                 </div>
@@ -199,24 +199,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <div class="row w3_kids  py-3">
                                         <div class="col-md-3 ">
                                             <span class="bg-light">Boy's Clothing</span>
-                                            <a class="dropdown-item" href="boys.html">T-Shirts</a>
-                                            <a class="dropdown-item" href="boys.html">Coats</a>
-                                            <a class="dropdown-item" href="boys.html">Shirts</a>
-                                            <a class="dropdown-item" href="boys.html">Suits & Blazers</a>
-                                            <a class="dropdown-item" href="boys.html">Jackets</a>
-                                            <a class="dropdown-item" href="boys.html">Trousers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Coats</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Suits & Blazers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Trousers</a>
                                         </div>
                                         <div class="col-md-3">
-                                            <a class="dropdown-item mt-4" href="boys.html">T-Shirts</a>
-                                            <a class="dropdown-item" href="boys.html">Coats</a>
-                                            <a class="dropdown-item" href="boys.html">Shirts</a>
-                                            <a class="dropdown-item" href="boys.html">Suits & Blazers</a>
-                                            <a class="dropdown-item" href="boys.html">Jackets</a>
-                                            <a class="dropdown-item" href="boys.html">Trousers</a>
+                                            <a class="dropdown-item mt-4" href="/fashion/shoppingsearch">T-Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Coats</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Suits & Blazers</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jackets</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Trousers</a>
                                         </div>
                                         <div class="col-md-3">
                                             <span>Girl's Clothing</span>
-                                            <a class="dropdown-item" style="color:#FF0000;" href="/fashion/kids/girls">T-shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
                                             <a class="dropdown-item" href="girls.html">Dresses</a>
                                             <a class="dropdown-item" href="girls.html">Tunics</a>
                                             <a class="dropdown-item" href="girls.html">Skirts</a>

@@ -1979,7 +1979,7 @@
 
       parent: (typeof document !== 'undefined') ? document.body : null,
 
-      action: 'checkout', //checkout.html
+      action: '/fashion/checkout', //checkout.html
 
       target: '',
 
