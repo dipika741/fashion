@@ -217,18 +217,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         <div class="col-md-3">
                                             <span>Girl's Clothing</span>
                                             <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
-                                            <a class="dropdown-item" href="girls.html">Dresses</a>
-                                            <a class="dropdown-item" href="girls.html">Tunics</a>
-                                            <a class="dropdown-item" href="girls.html">Skirts</a>
-                                            <a class="dropdown-item" href="girls.html">Jeans</a>
-                                            <a class="dropdown-item" href="girls.html">Midi</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Dresses</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Tunics</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Skirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jeans</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Midi</a>
                                         </div>
                                         <div class="col-md-3">
-                                            <a class="dropdown-item  mt-4" href="girls.html">Tunics</a>
-                                            <a class="dropdown-item" href="girls.html">Skirts</a>
-                                            <a class="dropdown-item" href="girls.html">T-shirts</a>
-                                            <a class="dropdown-item" href="girls.html">Dresses</a>
-                                            <a class="dropdown-item" href="girls.html">Jeans</a>
+                                            <a class="dropdown-item  mt-4" href="/fashion/shoppingsearch">Tunics</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Skirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">T-shirts</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Dresses</a>
+                                            <a class="dropdown-item" href="/fashion/shoppingsearch">Jeans</a>
                                         </div>
                                     </div>
                                 </div>
