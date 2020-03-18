@@ -75,7 +75,11 @@ signin Modal -->
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
                         You are Logged In 
-                        <?php //"{{ Auth::user()->name }}" ?>
+                         <?php // {{ Auth::user()->name }} 
+                                if (Auth::check()) {
+                                    echo '"'.strtoupper(Auth::user()->name) .'"';
+                                }
+                         ?>
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
@@ -88,7 +92,7 @@ signin Modal -->
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" >
                                         @csrf
                                        <div class="right-w3l">
-                                            <?php // {{ Auth::user()->name }} ?>
+                                          
                                             <input type="submit" class="form-control" value="Logout">
                                         </div>
                                     </form>
