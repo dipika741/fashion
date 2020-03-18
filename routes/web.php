@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+// Route::get('/register', 'TestCRUDController@header');
+// Route::get('/login', 'TestCRUDController@header');
+
+
 Route::get('/fashion', function () {
     return view('fashion/index');
 });
@@ -57,3 +62,7 @@ Route::get('/fashion/faq', function () {
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

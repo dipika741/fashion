@@ -95,9 +95,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <!-- search form -->
                     <div class="nav-icon d-flex">
                         <!-- sigin and sign up -->
-                        <a class="text-dark login_btn align-self-center mx-3" href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn">
-                            <i class="far fa-user"></i>
-                        </a>
+                        @guest
+                            <a class="text-dark login_btn align-self-center mx-3" href="#exampleModal1" data-toggle="modal" data-target="#exampleModal1">
+                                <i class="far fa-user"></i>
+                            </a>
+                        @else
+                            
+                            <a class="text-dark login_btn align-self-center mx-3" href="#logoutModal" data-toggle="modal" data-target="#logoutModal">
+                                <i class="fas fa-user"></i>
+                            </a>
+                                   
+                        @endguest
                         <!-- sigin and sign up -->
                         <!-- shopping cart -->
                         <div class="cart-mainf">
