@@ -1,4 +1,4 @@
-signin Modal -->
+   <!-- signin Modal -->
     <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1" aria-hidden="true">
         <div class="agilemodal-dialog modal-dialog" role="document">
             <div class="modal-content">
@@ -15,26 +15,27 @@ signin Modal -->
                         </div>
                         <div class="col-md-6">
                             <form action="{{ route('login') }}" method="post">
+                                
                                 {{ csrf_field() }}
                                 <div class="form-group">
                                     <label for="recipient-name" class="col-form-label">Your Email</label>
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label class="col-form-label">Password</label>
                                     <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                    @error('password')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <div class="form-check">
@@ -47,11 +48,12 @@ signin Modal -->
                                 </div>
                                 <div class="right-w3l">
                                     <input type="submit" class="form-control" value="Login">
+                                    
                                     @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
+                                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                                            {{ __('Forgot Your Password?') }}
+                                        </a>
+                                    @endif
                                 </div>
 
                                 <p class="text-center mt-3">Not Registered yet?
@@ -74,7 +76,7 @@ signin Modal -->
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
-                        You are Logged In 
+                        Welcome
                          <?php // {{ Auth::user()->name }} 
                                 if (Auth::check()) {
                                     echo '"'.strtoupper(Auth::user()->name) .'"';

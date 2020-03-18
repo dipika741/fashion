@@ -19,6 +19,13 @@ Route::get('/', function () {
 // Route::get('/register', 'TestCRUDController@header');
 // Route::get('/login', 'TestCRUDController@header');
 
+Route::get('/fashion/login', function () {
+    return view('fashion/login');
+});
+
+Route::get('/fashion/registration', function () {
+    return view('fashion/registration');
+});
 
 Route::get('/fashion', function () {
     return view('fashion/index');
