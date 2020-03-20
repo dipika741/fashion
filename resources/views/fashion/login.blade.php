@@ -49,7 +49,7 @@
                             <input type="submit" class="form-control" value="Login">
                             
                             @if (Route::has('password.request'))
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <a class="btn btn-link" href="/fashion/resetPassword">
                                     {{ __('Forgot Your Password?') }}
                                 </a>
                             @endif
@@ -61,6 +61,7 @@
                     </p>
 
                     </form>
+                    <br>
                 </div>
             </div>
         </div>

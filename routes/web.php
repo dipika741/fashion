@@ -19,17 +19,21 @@ Route::get('/', function () {
 // Route::get('/register', 'TestCRUDController@header');
 // Route::get('/login', 'TestCRUDController@header');
 
-Route::get('/fashion/login', function () {
-    return view('fashion/login');
-});
+// Route::get('/fashion/login', function () {
+//     return view('fashion/login');
+// });
 
 Route::get('/fashion/registration', function () {
     return view('fashion/registration');
 });
 
-Route::get('/fashion', function () {
-    return view('fashion/index');
+Route::get('/fashion/resetPassword', function () {
+    return view('fashion/reset');
 });
+
+// Route::get('/fashion', function () {
+//     return view('fashion/index');
+// });
 
 Route::get('/fashion/test', function () {
     return view('fashion/index1');
@@ -63,13 +67,24 @@ Route::get('/fashion/payment', function () {
     return view('fashion/payment');
 });
 
-Route::get('/fashion/faq', function () {
-    return view('fashion/faq');
-});
+// Route::get('/fashion/faq', function () {
+//     return view('fashion/faq');
+// });
+
+// Route::get('/fashion/profile', function () {
+//     return view('fashion/profile');
+// });
 
 
+Route::get('/fashion', 'HomeController@index')->name('fashion');
+Route::get('/fashion/faq', 'HomeController@faq')->name('faq');
+Route::get('/fashion/contact', 'HomeController@contact')->name('contact');
+Route::get('/fashion/blog', 'HomeController@blog')->name('blog');
+Route::get('/fashion/about', 'HomeController@about')->name('about');
+Route::get('/fashion/login', 'HomeController@login')->name('fashion/login');
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/fashion/profile', 'user@profile')->name('profile');
